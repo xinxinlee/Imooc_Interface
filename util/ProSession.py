@@ -1,4 +1,5 @@
 import requests
+from util.ReadConfig import ReadIni
 
 class ProSession:
     """获取登录后的Session"""
@@ -7,16 +8,10 @@ class ProSession:
 
     def create_session(self):
         session = requests.Session()
-        url = 'http://scm.gyl.test.9now.net/api/v1/users/login'
+        file_name = 'D:\\Imooc_Interface\\config\\ReqData.ini'
+        cof_obj = ReadIni(file_name,'logSession')
+        url = cof_obj.get_value('url_login')
+        login_data = cof_obj.get_value('login_data')
         headers = {'content-type': 'application/json'}
-        login_data = '''{
-        "shopName":"JC000327",
-        "userName":"admin",
-        "password":"123456",
-        "authCode":"8888"
-        }'''
         result = session.post(url,data=login_data,headers=headers)
         return session
-
-
-

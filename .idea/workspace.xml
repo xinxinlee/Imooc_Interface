@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d999ee-349f-490a-93d8-16c27d2d345b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Imooc_Interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterFace_src/PurReqOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterFace_src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/ReqData.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/ReadConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjSess.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/ProSession.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleorder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterFace_src/PurReqOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFace_src/PurReqOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/ReqData.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/ReqData.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ProSession.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/ProSession.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/ReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/ReadConfig.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,20 +19,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/ReadConfig.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterFace_src/PurReqOrder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="150">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Other/AboutCode.py">
+        <entry file="file://$PROJECT_DIR$/config/ReqData.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="513">
+              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/ProSession.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,9 +71,9 @@
         <option value="$PROJECT_DIR$/util/ProjSess.py" />
         <option value="$PROJECT_DIR$/saleorder.py" />
         <option value="$PROJECT_DIR$/util/ProSession1.py" />
-        <option value="$PROJECT_DIR$/util/ProSession.py" />
         <option value="$PROJECT_DIR$/config/ReadConfig.py" />
         <option value="$PROJECT_DIR$/util/ReadConfig.py" />
+        <option value="$PROJECT_DIR$/util/ProSession.py" />
         <option value="$PROJECT_DIR$/config/ReqData.ini" />
         <option value="$PROJECT_DIR$/InterFace_src/PurReqOrder.py" />
       </list>
@@ -101,11 +109,6 @@
               <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
               <item name="Imooc_Interface" type="462c0819:PsiDirectoryNode" />
               <item name="InterFace_src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imooc_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Other" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
@@ -147,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AboutCode">
+  <component name="RunManager" selected="Python.PurReqOrder">
     <configuration name="AboutCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Imooc_Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,10 +263,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AboutCode" />
         <item itemvalue="Python.PurReqOrder" />
         <item itemvalue="Python.ProSession" />
         <item itemvalue="Python.ReadConfig" />
+        <item itemvalue="Python.AboutCode" />
         <item itemvalue="Python.ProSession1" />
       </list>
     </recent_temporary>
@@ -279,24 +282,26 @@
       <option name="presentableId" value="Default" />
       <updated>1604973330722</updated>
       <workItem from="1604973336297" duration="3057000" />
-      <workItem from="1604976455177" duration="11954000" />
+      <workItem from="1604976455177" duration="12289000" />
+      <workItem from="1604997118175" duration="6252000" />
+      <workItem from="1605057378655" duration="13134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15011000" />
+    <option name="totallyTimeSpent" value="34732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.19062027" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.19667171" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.19062027" />
       <window_info id="Favorites" order="2" sideWeight="0.50080514" side_tool="true" weight="0.19062027" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37198067" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -317,77 +322,66 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Imooc_Interface$ProSession.coverage" NAME="ProSession Coverage Results" MODIFIED="1604995933034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/Imooc_Interface$ReadConfig.coverage" NAME="ReadConfig Coverage Results" MODIFIED="1604995918788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$ProSession.coverage" NAME="ProSession Coverage Results" MODIFIED="1605058702981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$ReadConfig.coverage" NAME="ReadConfig Coverage Results" MODIFIED="1605001014399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProjSess__2_.coverage" NAME="ProjSess (2) Coverage Results" MODIFIED="1604976395350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$AboutCode.coverage" NAME="AboutCode Coverage Results" MODIFIED="1604996067100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProjSess.coverage" NAME="ProjSess Coverage Results" MODIFIED="1604974371311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Imooc_Interface$PurReqOrder.coverage" NAME="PurReqOrder Coverage Results" MODIFIED="1604996020354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFace_src" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$PurReqOrder.coverage" NAME="PurReqOrder Coverage Results" MODIFIED="1605081581678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFace_src" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProjSess__1_.coverage" NAME="ProjSess (1) Coverage Results" MODIFIED="1604976246785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$saleorder.coverage" NAME="saleorder Coverage Results" MODIFIED="1604976261111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProSession1.coverage" NAME="ProSession1 Coverage Results" MODIFIED="1604976570761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ProjSess.py" />
-    <entry file="file://$PROJECT_DIR$/util/ProjSess.py">
+    <entry file="file://$PROJECT_DIR$/util/ProjSess.py" />
+    <entry file="file://$PROJECT_DIR$/saleorder.py" />
+    <entry file="file://$PROJECT_DIR$/config/ReadConfig.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/Python36-32/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="25" lean-forward="true" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saleorder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="95" column="30" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/ReadConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InterFace_src/PurReqOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/ProSession.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/ReqData.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="212">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Other/AboutCode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/ReadConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="114">
+          <caret line="6" column="24" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterFace_src/PurReqOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ReqData.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/ProSession.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

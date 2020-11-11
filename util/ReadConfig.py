@@ -17,9 +17,7 @@ class ReadIni:
 
 if __name__ == '__main__':
     file_name = 'D:\\Imooc_Interface\\config\\ReqData.ini'
-    read_obj = ReadIni(file_name,'PurReqOrder')
-    a = read_obj.get_value('data')
+    read_obj = ReadIni(file_name,'logSession')
+    a = read_obj.get_value('login_data')
     print(a)
     print(type(a))
-
-
