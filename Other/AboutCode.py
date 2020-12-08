@@ -28,3 +28,24 @@ def json_decode():
     #把字符串解回字典，无法解回到类
     clazz = json.loads(data["class"])
     #print(clazz)
+
+import sys
+"""
+python的编码和解码学习：
+python3 中在调用encode的时候，会把数据转换为byte类型
+b = byte 属于字节类型，是介于1-255之间的数字
+"""
+print(sys.getdefaultencoding())#打印文件的默认编码
+s = "小明"#默认是unicode编码
+s_to_gbk = s.encode('gbk')
+b_to_uni = s_to_gbk.decode('gbk')
+print(s)
+print(s_to_gbk)
+print(b_to_uni)
+"""
+输出：
+utf-8
+小明
+b'\xd0\xa1\xc3\xf7'
+小明
+"""
