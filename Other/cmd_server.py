@@ -19,5 +19,3 @@ while 1:
     #print(addr)
     while 1:
         pass
-
-
