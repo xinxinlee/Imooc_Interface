@@ -29,7 +29,7 @@ data1 = f.read()
 data_res = json.loads(data1)
 print(data_res['name'])
 """
-以上是JSON 模块提供的方法来实现相同的功能，JSON只能处理列表、字典等一些常规数据类型的序列化操作，函数也类的序列化就无法
+以上是JSON 模块提供的方法来实现相同的功能，JSON只能处理列表、字典等一些常规数据类型的序列化操作，函数和类的对象的序列化就无法
 使用了，需要用到另外一个模块pickle来实现对类和函数的序列化操作
 """
 
@@ -73,10 +73,27 @@ f.close()
 f = open('D:\Imooc_Interface\Other\ProvinceMemu.txt','r')
 data_res = json.load(f)#直接把文件中的内容发序列化和读出来
 print(data_res['name'])
-'''
+
 
 import shelve
 
 f = shelve.open('D:\Imooc_Interface\Other\ProvinceMemuNew')
 f['info'] = {'name':'xiaotuzi','age':'20'}#会生成三种格式的文件
 print(f['info'])
+'''
+import json
+"""
+打开文件写入一个字典，这个字典中包含中文的时候，字典转化为字符串的过程中需要指定编码，打开文件的时候需要指定编码；写完后关闭文件再次打开
+的时候也需要指定编码，这样可以保证写入文件中的中文不是乱码或者16进制形式，也保证读取后转化为字典后的中文没有乱码或者二进制。
+在python3中将对应的数据类型转化为字符串的时候推荐使用json的dump和load系列函数。也可以使用str和eval函数。
+"""
+dict1 = json.dumps({'name':'小量','age':18,'color':'blue'},ensure_ascii=False)
+f = open('D:\\Imooc_Interface\\Other\\ProvinceMemu.txt','w',encoding="utf-8")
+f.write(dict1)
+f.close()
+
+f = open('D:\\Imooc_Interface\\Other\\ProvinceMemu.txt','r',encoding="utf-8")
+data = f.read()#data此时是str
+data_new = json.loads(data)#使用eval（）函数把str 变成dict
+print(type(data_new))
+print(data_new['name'])

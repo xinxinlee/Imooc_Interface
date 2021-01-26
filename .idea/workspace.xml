@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d999ee-349f-490a-93d8-16c27d2d345b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Other/工厂模式示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Other/抽象工厂示例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/web框架学习1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Other/接口返回中的nullturefault.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/Httprequests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/ClassRe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Other/ClassRe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/AboutCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Other/AboutCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/ProvinceMemu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Other/ProvinceMemu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Other/dumps和loads的学习.py" beforeDir="false" afterPath="$PROJECT_DIR$/Other/dumps和loads的学习.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +20,32 @@
     <favorites_list name="Imooc_Interface" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/ProSession.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/Httprequests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,7 +78,6 @@
         <option value="$PROJECT_DIR$/Other/ProvinceMemu.txt" />
         <option value="$PROJECT_DIR$/Other/opration_file.py" />
         <option value="$PROJECT_DIR$/Other/shopping.py" />
-        <option value="$PROJECT_DIR$/Other/AboutCode.py" />
         <option value="$PROJECT_DIR$/Other/HomeWork-封装.py" />
         <option value="$PROJECT_DIR$/Other/cmd_client.py" />
         <option value="$PROJECT_DIR$/Other/sqlalchemy_study.py" />
@@ -63,10 +90,17 @@
         <option value="$PROJECT_DIR$/Other/ClassRe.py" />
         <option value="$PROJECT_DIR$/Other/工厂模式示例.py" />
         <option value="$PROJECT_DIR$/Other/抽象工厂示例.py" />
+        <option value="$PROJECT_DIR$/Other/web框架学习1.py" />
+        <option value="$PROJECT_DIR$/mysite/blog/views.py" />
+        <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/Other/dumps和loads的学习.py" />
+        <option value="$PROJECT_DIR$/Other/AboutCode.py" />
+        <option value="$PROJECT_DIR$/Other/接口返回中的nullturefault.py" />
+        <option value="$PROJECT_DIR$/util/Httprequests.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="415" />
     <option name="y" value="180" />
     <option name="width" value="1386" />
@@ -80,23 +114,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
               <item name="Imooc_Interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imooc_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Imooc_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="InterFace_src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
@@ -108,26 +131,32 @@
               <item name="Imooc_Interface" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Imooc_Interface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../py3_training-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/util" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Imooc_Interface\util" />
+      <recent name="D:\Imooc_Interface" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Imooc_Interface\util" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Imooc_Interface" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,8 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.类形式的选课系统作业-school">
-    <configuration name="类形式的选课系统作业-school" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Httprequests">
+    <configuration name="Httprequests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Imooc_Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,12 +180,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Other/类形式的选课系统作业-school.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/Httprequests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="工厂模式示例" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ProSession" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Imooc_Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,12 +202,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Other/工厂模式示例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/ProSession.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="抽象工厂示例" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dumps和loads的学习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Imooc_Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,7 +229,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Other/抽象工厂示例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Other/dumps和loads的学习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiprocess_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="接口返回中的nullturefault" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Imooc_Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +251,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Other/multiprocess_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Other/接口返回中的nullturefault.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threading_study" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Imooc_Interface" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,12 +268,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/mysite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Other/threading_study.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/mysite/urls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.类形式的选课系统作业-school" />
-        <item itemvalue="Python.抽象工厂示例" />
-        <item itemvalue="Python.工厂模式示例" />
-        <item itemvalue="Python.multiprocess_1" />
-        <item itemvalue="Python.threading_study" />
+        <item itemvalue="Python.Httprequests" />
+        <item itemvalue="Python.接口返回中的nullturefault" />
+        <item itemvalue="Python.ProSession" />
+        <item itemvalue="Python.dumps和loads的学习" />
+        <item itemvalue="Python.urls" />
       </list>
     </recent_temporary>
   </component>
@@ -307,17 +336,27 @@
       <workItem from="1608774978013" duration="5239000" />
       <workItem from="1608880782986" duration="2171000" />
       <workItem from="1609833546127" duration="3254000" />
-      <workItem from="1609897618435" duration="3543000" />
+      <workItem from="1609897618435" duration="4159000" />
+      <workItem from="1609984703638" duration="1583000" />
+      <workItem from="1610003550240" duration="727000" />
+      <workItem from="1610429907154" duration="8064000" />
+      <workItem from="1610503407472" duration="4077000" />
+      <workItem from="1610935626907" duration="1973000" />
+      <workItem from="1610938022653" duration="8734000" />
+      <workItem from="1611556059800" duration="1324000" />
+      <workItem from="1611562897823" duration="1210000" />
+      <workItem from="1611632496759" duration="6876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174856000" />
+    <option name="totallyTimeSpent" value="210040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.19062027" />
       <window_info id="Favorites" order="2" sideWeight="0.50080514" side_tool="true" weight="0.19062027" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,43 +369,49 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.37198067" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32850242" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Run" order="5" sideWeight="0.49924356" side_tool="true" weight="0.3600605" />
+      <window_info active="true" anchor="right" id="Run" order="5" sideWeight="0.49924356" side_tool="true" visible="true" weight="0.29425114" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Imooc_Interface$ProSession.coverage" NAME="ProSession Coverage Results" MODIFIED="1605058702981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$ProSession.coverage" NAME="ProSession Coverage Results" MODIFIED="1611644010899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$opration_file.coverage" NAME="opration_file Coverage Results" MODIFIED="1606468121961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProviceMenu.coverage" NAME="ProviceMenu简单写法 Coverage Results" MODIFIED="1606802126151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$SocketStudy.coverage" NAME="SocketStudy Coverage Results" MODIFIED="1606016970102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$urls.coverage" NAME="urls Coverage Results" MODIFIED="1610517520070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite/mysite" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$threading_study.coverage" NAME="threading_study Coverage Results" MODIFIED="1608190172863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ErrorStudy.coverage" NAME="ErrorStudy Coverage Results" MODIFIED="1605769186860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1606802192293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$cmd_server.coverage" NAME="cmd_server Coverage Results" MODIFIED="1607071730877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$Httprequests.coverage" NAME="Httprequests Coverage Results" MODIFIED="1611645487447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$multiprocess_1.coverage" NAME="multiprocess_1 Coverage Results" MODIFIED="1608800583259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProjSess.coverage" NAME="ProjSess Coverage Results" MODIFIED="1604974371311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProjSess__1_.coverage" NAME="ProjSess (1) Coverage Results" MODIFIED="1604976246785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$saleorder.coverage" NAME="saleorder Coverage Results" MODIFIED="1604976261111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$clent.coverage" NAME="clent Coverage Results" MODIFIED="1606016976869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProviceMenu1.coverage" NAME="ProviceMenu1 Coverage Results" MODIFIED="1606207119356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$nullturefault.coverage" NAME="接口返回中的nullturefault Coverage Results" MODIFIED="1611645223002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$views.coverage" NAME="views Coverage Results" MODIFIED="1610517222275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysite/blog" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ReadConfig.coverage" NAME="ReadConfig Coverage Results" MODIFIED="1605492646283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$AboutCode.coverage" NAME="AboutCode Coverage Results" MODIFIED="1604996067100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$_school.coverage" NAME="类形式的选课系统作业-school Coverage Results" MODIFIED="1609918490175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$sqlalchemy_study.coverage" NAME="sqlalchemy_study Coverage Results" MODIFIED="1607588991378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$SingleObj.coverage" NAME="SingleObj Coverage Results" MODIFIED="1605839980613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProvinceMenu.coverage" NAME="ProvinceMenu Coverage Results" MODIFIED="1606204515907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$dumpsloads.coverage" NAME="dumps和loads的学习 Coverage Results" MODIFIED="1611643412174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProjSess__2_.coverage" NAME="ProjSess (2) Coverage Results" MODIFIED="1604976395350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$PurReqOrder.coverage" NAME="PurReqOrder Coverage Results" MODIFIED="1605081581678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFace_src" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$threading_test.coverage" NAME="threading_test Coverage Results" MODIFIED="1608190133059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
+    <SUITE FILE_PATH="coverage/Imooc_Interface$web1.coverage" NAME="web框架学习1 Coverage Results" MODIFIED="1610438622377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$HomeWork_.coverage" NAME="HomeWork-封装 Coverage Results" MODIFIED="1606729936155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$.coverage" NAME="抽象工厂示例 Coverage Results" MODIFIED="1609901453828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Other" />
     <SUITE FILE_PATH="coverage/Imooc_Interface$ProSession1.coverage" NAME="ProSession1 Coverage Results" MODIFIED="1604976570761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
@@ -380,40 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/ProSession.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/ReadConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/ReqData.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InterFace_src/PurReqOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -433,13 +444,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Other/clent.py" />
     <entry file="file://$PROJECT_DIR$/Other/SocketStudy.py" />
-    <entry file="file://$PROJECT_DIR$/Other/opration_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Other/ProvinceMemuNew.bak" />
     <entry file="file://$PROJECT_DIR$/Other/ProvinceMemuNew.dir" />
     <entry file="file://$PROJECT_DIR$/Other/ProvinceMemuNew.dat" />
@@ -516,24 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Other/dumps和loads的学习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Other/选课系统-class&amp;student.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Other/类形式的选课系统作业-school.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -568,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Other/AboutCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Other/工厂模式示例.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
@@ -586,6 +569,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-304">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/类形式的选课系统作业-school.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/ReadConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/Python36-32/Lib/wsgiref/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/Python36-32/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="239" column="42" selection-start-line="239" selection-start-column="42" selection-end-line="239" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/blog/views.py" />
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py" />
+    <entry file="file://$PROJECT_DIR$/config/ReqData.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterFace_src/PurReqOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/opration_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/web框架学习1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="true" selection-start-column="45" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/接口返回中的nullturefault.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="366" column="53" selection-start-line="366" selection-start-column="53" selection-end-line="366" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/dumps和loads的学习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other/AboutCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/ProSession.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/Httprequests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,1 +1,1 @@
-{"name": "xiaotu", "age": 18, "color": "blue"}
+{"name": "小量", "age": 18, "color": "blue"}
