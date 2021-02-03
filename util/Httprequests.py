@@ -20,8 +20,18 @@ class myrequests:
     def mypost(self, param):
         try:
             data = json.dumps(param)
-            r = requests.post(self.url, data, headers=self.header)
+            r = requests.post(self.url, data=data, headers=self.header,stream=True, verify=False)
             json_response = json.loads(r.text)
             return json_response
         except Exception as e:
             print('post请求出错,原因:%s' % e)
+
+
+# obj = myrequests('http://10.1.219.12:7017/ad/resetPWD')
+# data = {
+#  "id":"992200",
+#  "newPwd":"Mw123456"
+# }
+# res = obj.mypost(data)
+# print(res)
+# print(type(res))
