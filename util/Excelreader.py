@@ -1,7 +1,8 @@
-import xlrd
+import xlrd,json
 from datetime import datetime
 from xlrd import xldate_as_tuple
 from xlutils.copy import copy
+import xlsxwriter as xw
 
 '''
 xlrd中单元格的数据类型
@@ -60,38 +61,28 @@ class ExcelDate:
 		rows = self.table.nrows
 		if rows>=1:
 			return rows
-		return None
+		return None1
 
 	def get_col_value(self,row,col):
 		if self.get_lines()> row:
 			data = self.table.cell(row,col).value
 			if type(data) == float:
 				data = int(data)
-			return str(data).strip()
+			return json.loads(str(data).strip())#将读出的str转成dict后存入list,如果存入str到读取做入参的时候会有格式问题
 		return None
 
-	def write_value(self,row,value):
-		read_value = self.data
-		write_data = copy(read_value)
-		write_data.get_sheet(0).write(row,7,value)
-		write_data.save('D:\\Imooc_selenium\\config\\keywords.xls')
+	def write_value(self,path,col,value):
+		workbook = xw.Workbook(path)
+		worksheet = workbook.add_worksheet()
+		worksheet.write(col,value)
+		workbook.close()
+
 
 # if __name__ == "__main__":
-# 	data_path = "D:\\Imooc_selenium\\config\\case.xlsx"
-# 	sheetname = "logincase"
-# 	get_data = ExcelDate(data_path,sheetname)
-# # 	#datas = get_data.for_ddtlist()
-# # 	# datas = get_data.get_col_value(1,3)
-# # 	#datas = get_data.write_value(7,'test')
-# # 	#datas = get_data.get_lines()
-# # 	# print(datas)
-# # 	# print(type(datas))
-# # 	# print(get_data.nrows)
-# # 	# print(get_data.ncols)
-# 	data_list = []
-# 	for i in range(1,get_data.nrows):
-# 		data = get_data.get_col_value(i,1)
-# 		data_list.append(data)
-# 	print(data_list)
+#     data_path = "D:\\Imooc_selenium\\config\\case.xlsx"
+#     sheetname = "logincase"
+#     get_data = ExcelDate(data_path,sheetname)
+#     get_data.write_value(11,'mingming')
+
 
 
