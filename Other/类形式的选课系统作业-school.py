@@ -3,7 +3,7 @@ import pickle
 class School:
     def __init__(self,name):
         self.name = name
-        self.唯一标识 = 随机字符串
+        self.唯一标识 = '随机字符串'
     def save(self):
         """
         正常情况下一个类的被实例化之后是保存在内存中的，我们可以使用pickle模块把类保存在某个文本中

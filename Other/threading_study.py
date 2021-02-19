@@ -1,11 +1,5 @@
-import threading,time
+from selenium import webdriver
 
-def addNum():
-    global num
-    num -= 1
-    return num
-
-num = 100
-r = addNum()
-print(r)
-
+driver = webdriver.Chrome()
+driver.get("http://www.baidu.com")
+driver.quit()
